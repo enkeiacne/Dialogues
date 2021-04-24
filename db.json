@@ -1,10 +1,14 @@
 {
     "dialgues": [
         {
-            "Mahasiswa": "Halo Apa Kabar?"
+            "Mahasiswa": "Halo Apa Kabar pak?"
         },
         {
-            "Dosen": "Kabar baik"
+            "Dosen": "Kabar baik. Bagaimana Kabarmu?"
+        },
+        {
+            "mahasiswa": "baik pak",
+            "mahasiswa": "Tidak baik pak"
         }
     ]
 }
