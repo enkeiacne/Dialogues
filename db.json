@@ -1,6 +1,7 @@
-[
+
     {
-        "dialogues": {
+        "dialogues": [
+           {
           "Mahasiswa": "Hallo pak!! . Apa Kabar?",
           "Dosen": "Baik. Bagaimana kabar mu?",
           "?": {
@@ -14,5 +15,5 @@
             }
           }
         }
+            ]
       }
-]
