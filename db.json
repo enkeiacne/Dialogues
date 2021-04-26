@@ -12,6 +12,9 @@
           "1": [
             {
               "Mahasiswa": "Baik"
+            },
+            {
+              "END": "END"
             }
           ]
         },
@@ -19,6 +22,9 @@
           "2": [
             {
               "Mahasiswa": "Buruk"
+            },
+            {
+              "END": "END"
             }
           ]
         }
