@@ -1,20 +1,28 @@
 {
-    "dialogues":[
+  "dialogues": [
+    {
+      "Mahasiswa": "A"
+    },
+    {
+      "Dosen": "B"
+    },
+    {
+      "?": [
         {
-            "Mahasiswa":"A"
+          "1": [
+            {
+              "Mahasiswa": "Baik"
+            }
+          ]
         },
         {
-            "Dosen":"B"
-        },
-        {
-            "?":[
-                {
-                    "1":"asa"
-                },
-                {
-                    "2":"aa"
-                }
-            ]
+          "2": [
+            {
+              "Mahasiswa": "Buruk"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
