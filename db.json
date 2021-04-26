@@ -1,13 +1,12 @@
-[
- {
-     "dialogues":[
-         {
-             "Mahasiswa":"Hallo apa akabar"
-         },{
-             "Dosen":"Baik"
-         }
-     ]
-        
-     
- }   
-]
+{
+  "dialogues": [
+    {
+      "id": 1,
+      "nama": "Xiaomi Redmi Note 9",
+      "image": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0881TCNX5&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=0107071-20",
+      "ram": "8GB",
+      "rom": "128GB",
+      "deskripsi": "Xiaomi Redmi Note 9 Pro 64GB + 6GB RAM, 6.67FHD+ DotDisplay, 64MP AI Quad Camera, Qualcomm Snapdragon 720G LTE Factory Unlocked Smartphone - International Version (Interstellar Grey)"
+    }
+  ]
+}
