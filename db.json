@@ -1,17 +1,18 @@
-[
+{
+  "dialogues": [
     {
-      "Mahasiswa": "How Are You Sir??"
+      "Mahasiswa": "A"
     },
     {
-      "Dosen": "I'm Doing Good. How About You??"
+      "Dosen": "B"
     },
     {
       "?": [
         {
           "1": [
-            "I'm Good too",
+            "Are You Ok?",
             {
-              "Dosen": "bbb"
+              "Mahasiswa": "Baik"
             },
             {
               "END": "END"
@@ -20,9 +21,8 @@
         },
         {
           "2": [
-              "I'm Not Good. I Feel Tired And Sleepy",
             {
-              "Dosen": ""
+              "Mahasiswa": "Buruk"
             },
             {
               "END": "END"
@@ -32,3 +32,4 @@
       ]
     }
   ]
+}
