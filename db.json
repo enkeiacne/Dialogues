@@ -7,13 +7,16 @@
             "Dosen": "Kabar baik. Bagaimana Kabarmu?"
         },
         {
-            "mahasiswa": "baik pak"
-        },
-        {
-            "mahasiswa": "Tidak baik pak"
-        },
-        {
-            "END":"END"
+            "?": {
+                "1":{
+                    "Mahasiswa": "Baik pak",
+                    "END": "END"
+                },
+                "2":{
+                    "Mahasiswa": "Kurang baik pak sayas sedang sakit",
+                    "END":"END"
+                }
+            }
         }
     ]
 }
