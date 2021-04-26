@@ -1,19 +1,13 @@
-
-    {
-        "dialogues": [
-           {
-          "Mahasiswa": "Hallo pak!! . Apa Kabar?",
-          "Dosen": "Baik. Bagaimana kabar mu?",
-          "?": {
-            "1": {
-              "Mahasiswa": "Baik",
-              "END": "END"
-            },
-            "2": {
-              "Mahasiswa": "Tidak Baik",
-              "END": "END"
-            }
-          }
-        }
-            ]
-      }
+[
+ {
+     "dialogues":[
+         {
+             "Mahasiswa":"Hallo apa akabar"
+         },{
+             "Dosen":"Baik"
+         }
+     ]
+        
+     
+ }   
+]
