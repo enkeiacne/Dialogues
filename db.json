@@ -1,18 +1,18 @@
 {
   "dialogues": [
     {
-      "Mahasiswa": "How Are You Doing Sir?"
+      "Mahasiswa": "Apa Kabar Pak?"
     },
     {
-      "Dosen": "I'm Doing Good. How About you Deny?"
+      "Dosen": "Puji syukur sehat. Bagaimana dengan mu?"
     },
     {
       "?": [
         {
           "1": [
-            "I'm Good Too.",
+            "sehat juga pak.",
             {
-              "Mahasiswa": "G"
+              "Mahasiswa": "wkwkwk"
             },
             {
               "END": "END"
@@ -21,9 +21,9 @@
         },
         {
           "2": [
-            "I'm Not Good.",
+            "Tidak pak",
             {
-              "Mahasiswa": "asa"
+              "Mahasiswa": "hehehe"
             },
             {
               "END": "END"
