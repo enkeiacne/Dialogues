@@ -1,42 +1,60 @@
 {
-  "dialogues": [
-    {
-      "Mahasiswa": "Apa Kabar Pak??????"
-    },
-    {
-      "Dosen": "Puji syukur sehat. Bagaimana dengan mu?"
-    },
-    {
-      "?": [
-        {
-          "1": [
-            "sehat juga pak.",
-            {
-              "Dosen": "Alhamdulillah"
-            },
-            {
-              "Mahasiswa": "Semoga Bapak sehat selalu"
-            },
-            {
-              "Dosen":"Amin"
-            },
-            {
-              "END":"END"
-            }
-          ]
-        },
-        {
-          "2": [
-            "Yoi Sehat pak",
-            {
-              "Dosen": "Kamu banyak begadang ya sakit terus?"
-            },
-            {
-              "END": "END"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+    "dialogues": [
+      {
+        "Mahasiswa": "Apa Kabar Pak??????"
+      },
+      {
+        "Dosen": "Puji syukur sehat. Bagaimana dengan mu?"
+      },
+      {
+        "?": [
+          {
+            "1": [
+              "sehat juga pak.",
+              {
+                "Dosen": "Alhamdulillah"
+              },
+              {
+                "Mahasiswa": "Semoga Bapak sehat selalu"
+              },
+              {
+                "Dosen":"Amin"
+              },
+              {
+                "END":"END"
+              }
+            ]
+          },
+          {
+            "2": [
+              "Yoi Sehat pak",
+              {
+                "Dosen": "Yang Sopan Nak?"
+              },
+              {
+                "?": [
+                    {
+                        "1":[
+                            "Hehe Maaf pak",
+                            {
+                                "END":"END"
+                            }
+                        ]
+                    },
+                    {
+                        "2":[
+                            "Gaul Pak",
+                            {
+                                "END":"END"
+                            }
+                        ]
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
