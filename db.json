@@ -12,6 +12,9 @@
           "1": [
             "sehat juga pak.",
             {
+              "Senang":"Senang"
+            },
+            {
               "Dosen": "Alhamdulillah"
             },
             {
@@ -29,9 +32,10 @@
           "2": [
             "Yoi Sehat pak",
             {
-              "Dosen": "Yang Sopan Nak?"
-            },{
               "Marah":"Marah"
+            },
+            {
+              "Dosen": "Yang Sopan Nak?"
             },
             {
               "?": [
