@@ -1,65 +1,1049 @@
 {
-  "dialogues": [
+  "accountInfos": [
     {
-      "Mahasiswa": "Apa Kabar Pak??????"
-    },
-    {
-      "Dosen": "Puji syukur sehat. Bagaimana dengan mu?"
-    },
-    {
-      "?": [
-        {
-          "1": [
-            "sehat juga pak.",
-            {
-              "Senang":"Senang"
-            },
-            {
-              "Dosen": "Alhamdulillah"
-            },
-            {
-              "Mahasiswa": "Semoga Bapak sehat selalu"
-            },
-            {
-              "Dosen":"Amin"
-            },
-            {
-              "END":"END"
-            }
-          ]
+      "BalanceType": "Cash",
+      "availableBalance": {
+        "currency": "IDR",
+        "value": "0.00"
+      }
+    }
+  ],
+  "additionalInfo": {
+    "virtualAccountData": [
+      {
+        "partnerServiceId": "83222",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "83222082232564656",
+        "bankName": "BCA",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "1000.00"
         },
-        {
-          "2": [
-            "Yoi Sehat pak",
+        "instruction": {
+          "name": "BCA VA",
+          "alias": "BCA",
+          "va": "83222082232564656",
+          "step": [
             {
-              "Marah":"Marah"
+              "name": "ATM BCA",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM & PIN anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transaksi Lainya > Transfer > BCA > Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
             },
             {
-              "Dosen": "Yang Sopan Nak?"
+              "name": "Klik BCA",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun Klik BCA"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transfer Dana > BCA Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
             },
             {
-              "?": [
-                  {
-                      "1":[
-                          "Hehe Maaf pak",
-                          {
-                              "END":"END"
-                          }
-                      ]
-                  },
-                  {
-                      "2":[
-                          "Gaul Pak",
-                          {
-                              "END":"END"
-                          }
-                      ]
-                  }
+              "name": "m-BCA (mobile App)",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun mBCA"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transfer Dana > BCA Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
               ]
             }
-          ]
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/logo_BCA.png"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "partnerServiceId": "7808",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "7808082232564656",
+        "bankName": "PERMATA",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "2000.00"
+        },
+        "instruction": {
+          "name": "PERMATA VA",
+          "alias": "PERMATA",
+          "va": "7808082232564656",
+          "step": [
+            {
+              "name": "Internet Banking (Permata Net)",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke Internet Banking (Permata Net)"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran"
+                },
+                {
+                  "name": "str",
+                  "value": "Lalu pilih sub menu Pembayaran Tagihan kemudian pilih virtual akun"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih akun rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "Permata Mobile X",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun Permata Mobile X"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran Tagihan kemudian pilih Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "ATM Permata",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM dan PIN ATM Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu pembayaran lainnya, kemudian pilih Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/Logo-Bank-Permata.png"
+        }
+      },
+      {
+        "partnerServiceId": "25819",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "25819082232564656",
+        "bankName": "BRI",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "1000.00"
+        },
+        "instruction": {
+          "name": "BRI VA",
+          "alias": "BRI",
+          "va": "25819082232564656",
+          "step": [
+            {
+              "name": "ATM BRI",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM dan PIN ATM Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Transaksi lain kemudian pilih bank lain "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu pembayaran, kemudian pilih Bank lain"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu lainya, kemudian pilih Bank lain"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih BRIVA"
+                },
+                {
+                  "name": "copy",
+                  "value": "msukan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI Mobile",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke BRI Mobile"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu BRIVA"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI Internet Banking",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke BRI Internet Banking"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu BRIVA "
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI SMS Banking",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Ketik BAYAR BRV (spasi) nomor BRIVA (spapsi) Nominal (spasi) PIN"
+                },
+                {
+                  "name": "str",
+                  "value": "Contoh: BAYAR BRV 25819 0898309128789 5000 123456 "
+                },
+                {
+                  "name": "str",
+                  "value": "Kirim ke 3300"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/Logo_Bank_Rakyat_Indonesia.png"
+        }
+      },
+      {
+        "partnerServiceId": "83222",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "83222082232564656",
+        "bankName": "BCA",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "1000.00"
+        },
+        "instruction": {
+          "name": "BCA VA",
+          "alias": "BCA",
+          "va": "83222082232564656",
+          "step": [
+            {
+              "name": "ATM BCA",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM & PIN anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transaksi Lainya > Transfer > BCA > Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "Klik BCA",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun Klik BCA"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transfer Dana > BCA Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "m-BCA (mobile App)",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun mBCA"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transfer Dana > BCA Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/logo_BCA.png"
+        }
+      },
+      {
+        "partnerServiceId": "7808",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "7808082232564656",
+        "bankName": "PERMATA",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "2000.00"
+        },
+        "instruction": {
+          "name": "PERMATA VA",
+          "alias": "PERMATA",
+          "va": "7808082232564656",
+          "step": [
+            {
+              "name": "Internet Banking (Permata Net)",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke Internet Banking (Permata Net)"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran"
+                },
+                {
+                  "name": "str",
+                  "value": "Lalu pilih sub menu Pembayaran Tagihan kemudian pilih virtual akun"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih akun rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "Permata Mobile X",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun Permata Mobile X"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran Tagihan kemudian pilih Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "ATM Permata",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM dan PIN ATM Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu pembayaran lainnya, kemudian pilih Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/Logo-Bank-Permata.png"
+        }
+      },
+      {
+        "partnerServiceId": "25819",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "25819082232564656",
+        "bankName": "BRI",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "1000.00"
+        },
+        "instruction": {
+          "name": "BRI VA",
+          "alias": "BRI",
+          "va": "25819082232564656",
+          "step": [
+            {
+              "name": "ATM BRI",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM dan PIN ATM Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Transaksi lain kemudian pilih bank lain "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu pembayaran, kemudian pilih Bank lain"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu lainya, kemudian pilih Bank lain"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih BRIVA"
+                },
+                {
+                  "name": "copy",
+                  "value": "msukan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI Mobile",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke BRI Mobile"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu BRIVA"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI Internet Banking",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke BRI Internet Banking"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu BRIVA "
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI SMS Banking",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Ketik BAYAR BRV (spasi) nomor BRIVA (spapsi) Nominal (spasi) PIN"
+                },
+                {
+                  "name": "str",
+                  "value": "Contoh: BAYAR BRV 25819 0898309128789 5000 123456 "
+                },
+                {
+                  "name": "str",
+                  "value": "Kirim ke 3300"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/Logo_Bank_Rakyat_Indonesia.png"
+        }
+      },
+      {
+        "partnerServiceId": "83222",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "83222082232564656",
+        "bankName": "BCA",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "1000.00"
+        },
+        "instruction": {
+          "name": "BCA VA",
+          "alias": "BCA",
+          "va": "83222082232564656",
+          "step": [
+            {
+              "name": "ATM BCA",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM & PIN anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transaksi Lainya > Transfer > BCA > Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "Klik BCA",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun Klik BCA"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transfer Dana > BCA Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "m-BCA (mobile App)",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun mBCA"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu Transfer Dana > BCA Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor BCA Virtual Account Anda,"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/logo_BCA.png"
+        }
+      },
+      {
+        "partnerServiceId": "7808",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "7808082232564656",
+        "bankName": "PERMATA",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "2000.00"
+        },
+        "instruction": {
+          "name": "PERMATA VA",
+          "alias": "PERMATA",
+          "va": "7808082232564656",
+          "step": [
+            {
+              "name": "Internet Banking (Permata Net)",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke Internet Banking (Permata Net)"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran"
+                },
+                {
+                  "name": "str",
+                  "value": "Lalu pilih sub menu Pembayaran Tagihan kemudian pilih virtual akun"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih akun rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "Permata Mobile X",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke akun Permata Mobile X"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran Tagihan kemudian pilih Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "ATM Permata",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM dan PIN ATM Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu pembayaran lainnya, kemudian pilih Virtual Account"
+                },
+                {
+                  "name": "copy",
+                  "value": "Silahkan pilih rekening Anda, lalu masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/Logo-Bank-Permata.png"
+        }
+      },
+      {
+        "partnerServiceId": "25819",
+        "customerNo": "082232564656",
+        "virtualAccountNo": "25819082232564656",
+        "bankName": "BRI",
+        "feeAmount": {
+          "currency": "IDR",
+          "value": "1000.00"
+        },
+        "instruction": {
+          "name": "BRI VA",
+          "alias": "BRI",
+          "va": "25819082232564656",
+          "step": [
+            {
+              "name": "ATM BRI",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Masukkan kartu ATM dan PIN ATM Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Transaksi lain kemudian pilih bank lain "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu pembayaran, kemudian pilih Bank lain"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu lainya, kemudian pilih Bank lain"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih BRIVA"
+                },
+                {
+                  "name": "copy",
+                  "value": "msukan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI Mobile",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke BRI Mobile"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih menu BRIVA"
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor Virtual Account Anda, "
+                },
+                {
+              
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI Internet Banking",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Login ke BRI Internet Banking"
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu Pembayaran "
+                },
+                {
+                  "name": "str",
+                  "value": "Pilih Menu BRIVA "
+                },
+                {
+                  "name": "copy",
+                  "value": "Masukkan nomor Virtual Account Anda, "
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan nominal yang anda inginkan"
+                },
+                {
+                  "name": "str",
+                  "value": "Masukkan PIN Anda"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            },
+            {
+              "name": "BRI SMS Banking",
+              "step": [
+                {
+                  "name": "str",
+                  "value": "Ketik BAYAR BRV (spasi) nomor BRIVA (spapsi) Nominal (spasi) PIN"
+                },
+                {
+                  "name": "str",
+                  "value": "Contoh: BAYAR BRV 25819 0898309128789 5000 123456 "
+                },
+                {
+                  "name": "str",
+                  "value": "Kirim ke 3300"
+                },
+                {
+                  "name": "str",
+                  "value": "Ikuti petunjukan selanjutnya untuk menyelesaikan proses transaksi"
+                }
+              ]
+            }
+          ],
+          "icon": "https://filestorage.transjakarta.co.id/tije-apps/payment-logo/Logo_Bank_Rakyat_Indonesia.png"
+        }
+      }
+    ],
+    "userStatus": "REGISTERED"
+  }
 }
